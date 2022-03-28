@@ -19,6 +19,7 @@ class CreateEmpleadosTable extends Migration
             $table->string('cuenta');
             $table->double('importe', 7,2);
             $table->timestamps();
+            $table->engine = 'InnoDB';
         });
     }
 

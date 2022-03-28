@@ -20,6 +20,7 @@ class CreateEmpresasTable extends Migration
             $table->string('num_cliente');
             $table->string('num_sucursal');
             $table->timestamps();
+            $table->engine = 'InnoDB';
         });
     }
 
