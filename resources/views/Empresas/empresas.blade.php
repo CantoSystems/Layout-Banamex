@@ -41,7 +41,7 @@
                                 </td>
                             </tr>
                             <div class="container text-left">
-                            @include('empresas.modalupdate')
+                            @include('Empresas.modalupdate')
                             </div>
                           @endforeach
                         </tbody>
