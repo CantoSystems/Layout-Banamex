@@ -15,10 +15,11 @@ class EmpleadoImport implements ToModel, WithHeadingRow
     */
     public function model(array $row)
     {
-        return new Empleado([
+        dd($row);
+        /*return new Empleado([
           'nombre_empleado' => $row['nombre_de_trabajador'],
           'cuenta' => $row['cuenta'],
           'importe' => $row['importe'],
-        ]);
+        ]);*/
     }
 }
