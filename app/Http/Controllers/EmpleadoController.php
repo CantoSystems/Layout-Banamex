@@ -31,7 +31,7 @@ class EmpleadoController extends Controller
         $public_path= public_path();
         File::delete(File::glob($public_path.'/prueba.txt'));
           Excel::import(new EmpleadoImport,request()->file('file'));
-          //return view('Empleados.formar_layout',compact('empresas'));
+          return view('Empleados.formar_layout',compact('empresas'));
       }
 
     /**
